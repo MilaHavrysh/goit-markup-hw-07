@@ -1,0 +1,43 @@
+%header-navigation-list-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+%contacts-header-item-svg {
+  display: block;
+  box-sizing: content-box;
+  fill: $text-light-them-color;
+  margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+%about-us-svg {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+  background-position: center;
+  background-color: $secondary-white-background-color;
+  margin-bottom: 30px;
+}
+
+%footer-social-list-link-item {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

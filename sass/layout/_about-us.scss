@@ -1,0 +1,51 @@
+.about-us {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
+.about-us-list {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-item {
+  text-align: center;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.about-us .about-us-subtitle {
+  color: $title-light-theme-color;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.about-us-description {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 400;
+  line-height: 1.71;
+  text-align: left;
+  min-width: 270px;
+}
+
+.about-us-item-antenna::before {
+  @extend %about-us-svg;
+  background-image: url(../images/svg/antenna.svg);
+}
+.about-us-item-clock::before {
+  @extend %about-us-svg;
+  background-image: url(../images/svg/clock.svg);
+}
+.about-us-item-diagram::before {
+  @extend %about-us-svg;
+  background-image: url(../images/svg/diagram.svg);
+}
+.about-us-item-astronaut::before {
+  @extend %about-us-svg;
+  background-image: url(../images/svg/astronaut.svg);
+}
