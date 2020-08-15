@@ -18,9 +18,8 @@
 .hero .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-weight: 900;
   font-size: 44px;
-  line-height: 1.37;
+  @include textProp(900, 1.37);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: $text-dark-theme-color;
@@ -34,18 +33,16 @@
   background-color: $button-color;
   color: $button-text-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  @include textProp(700, 1.88);
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   &:active,
   &:focus,
   &:hover {
     background-color: #188ce8;
     outline: none;
-    cursor: pointer;
   }
 }

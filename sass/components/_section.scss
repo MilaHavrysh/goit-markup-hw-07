@@ -1,8 +1,6 @@
 .section-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  @include textProp(700, 1.17);
   text-align: center;
   color: $title-light-theme-color;
-  margin-bottom: 50px;
 }

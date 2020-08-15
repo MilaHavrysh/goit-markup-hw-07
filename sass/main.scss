@@ -1,8 +1,9 @@
 @import './utils/var';
 @import './base/base';
 @import './utils/placeholders';
+@import './utils/mixins';
 @import './components/container';
-@import './components/section-title';
+@import './components/section';
 @import './layout/header';
 @import './layout/hero';
 @import './layout/about-us';
@@ -10,4 +11,5 @@
 @import './layout/our-team';
 @import './layout/customers';
 @import './layout/footer';
+@import './layout/portfolio';
 @import './components/modal';
